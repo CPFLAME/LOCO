@@ -66,16 +66,16 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
 ### Data preparation
 
 1. Download the traffic dataset 
-    the dataset is modified from Tsinghua-Tencent 100K [a traffic sign dataset](http://cg.cs.tsinghua.edu.cn/traffic-sign/). We treat all traffic signs as one category and transfer it into VOC's annotation  format. For convenience, we call it VOCdevkit2007.
+
+	the dataset is modified from Tsinghua-Tencent 100K [a traffic sign dataset](http://cg.cs.tsinghua.edu.cn/traffic-sign/). We treat all traffic signs as one category and transfer it into VOC's annotation  format. For convenience, we call it VOCdevkit2007.
+
+	Download these four files:
+	uploading now
+
+2. Extract all of these tars into one directory named `VOCdevkit2007`
 
 	```Shell
-	wget uploading now.
-	```
-
-2. Extract all of these tars into one directory named `VOCdevkit`
-
-	```Shell
-	tar xvf VOCdevkit2007.tar
+	cat VOCdevkit2007.tar0* | tar -xzv
 	```
 
 3. It should have this basic structure
