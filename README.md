@@ -95,7 +95,7 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
     Using symlinks is a good idea because you will likely want to share the same PASCAL dataset installation between multiple projects.
 
 ### training and testing
-####For training
+###For training
 	you should download pre-trained ImageNet models
 
 	Pre-trained ImageNet models can be downloaded for the three networks described in the paper: ZF and VGG16.
@@ -104,6 +104,7 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
 	cd $LOCO
 	./data/scripts/fetch_imagenet_models.sh
 	```
+
 	VGG16 comes from the [Caffe Model Zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo), but is provided here for your convenience.
 	ZF was trained at MSRA.
 
@@ -112,7 +113,7 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
 	cd $LOCO
 	./experiments/scripts/faster_rcnn_context.sh [GPU_ID] VGG16 pascal_voc
 	```
-####For testing
+###For testing
 	We released our pretrained model at [uploading now], you can download it for testing.
 	start testing
 	```Shell
