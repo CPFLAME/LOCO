@@ -1,12 +1,13 @@
-##LOcal COntext based Faster R-CNN
+###LOcal COntext based Faster R-CNN
+
 A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn code](https://github.com/rbgirshick/py-faster-rcnn)) for detecting small objects more Effectively
 
 ### Contents
 1. [Requirements: software](#requirements-software)
 2. [Requirements: hardware](#requirements-hardware)
 3. [Basic installation](#installation-sufficient-for-the-demo)
-4. [Data preparation](#Data-preparation)
-5. [training and testing](#beyond-the-demo-installation-for-training-and-testing-models)
+4. [Data preparation](#data-preparation)
+5. [Training and Testing](#training-and-testing-models)
 6. [Usage](#usage)
 
 ### Requirements: software
@@ -93,7 +94,7 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
     ```
     Using symlinks is a good idea because you will likely want to share the same PASCAL dataset installation between multiple projects.
 
-### training and testing
+### Training and Testing
 1. For training
 
 	you should download pre-trained ImageNet models
