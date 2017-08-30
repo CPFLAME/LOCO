@@ -1,11 +1,11 @@
-##LOcal COntext based Faster R-CNN
+###LOcal COntext based Faster R-CNN
 A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn code](https://github.com/rbgirshick/py-faster-rcnn)) for detecting small objects more Effectively
 
 ### Contents
 1. [Requirements: software](#requirements-software)
 2. [Requirements: hardware](#requirements-hardware)
 3. [Basic installation](#installation-sufficient-for-the-demo)
-4. [Data preparation](#Data preparation)
+4. [Data preparation](#Data-preparation)
 5. [training and testing](#beyond-the-demo-installation-for-training-and-testing-models)
 6. [Usage](#usage)
 
@@ -118,7 +118,7 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
 	```Shell
 	cd $LOCO
 	./tools/test_net.py --gpu [GPU_ID] --def models/pascal_voc/VGG16/faster_rcnn_end2end/context_test.prototxt --net $your_model_path --imdb voc_2007_test --cfg experiments/cfgs/faster_rcnn_end2end.yml
-
+	```
 
 ### Usage
 
