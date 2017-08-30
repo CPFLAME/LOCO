@@ -1,4 +1,4 @@
-###LOcal COntext based Faster R-CNN
+##LOcal COntext based Faster R-CNN
 A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn code](https://github.com/rbgirshick/py-faster-rcnn)) for detecting small objects more Effectively
 
 ### Contents
@@ -68,9 +68,8 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
     the dataset is modified from Tsinghua-Tencent 100K [a traffic sign dataset](http://cg.cs.tsinghua.edu.cn/traffic-sign/). We treat all traffic signs as one category and transfer it into VOC's annotation  format. For convenience, we call it VOCdevkit2007.
 
 	```Shell
-	wget ?
+	wget uploading now.
 	```
-	uploading now.
 
 2. Extract all of these tars into one directory named `VOCdevkit`
 
@@ -95,11 +94,9 @@ A local context layer is implemented based on Faster R-CNN(see: [py-faster-rcnn 
     Using symlinks is a good idea because you will likely want to share the same PASCAL dataset installation between multiple projects.
 
 ### training and testing
-For training
+1. For training
 
 	you should download pre-trained ImageNet models
-
-	Pre-trained ImageNet models can be downloaded for the three networks described in the paper: ZF and VGG16.
 
 	```Shell
 	cd $LOCO
@@ -115,10 +112,10 @@ For training
 	cd $LOCO
 	./experiments/scripts/faster_rcnn_context.sh [GPU_ID] VGG16 pascal_voc
 	```
-For testing
 
-	We released our pretrained model at [here](http://pan.baidu.com/s/1pKKtKh1), you can download it for testing.
-	
+2. For testing
+	We released our pretrained model at [model](http://pan.baidu.com/s/1pKKtKh1), you can download it for testing.
+
 	start testing
 
 	```Shell
